@@ -1,0 +1,18 @@
+@font-face{
+    font-family:mc;
+    src: url(https://hellopgrmm.github.io/font/mc.otf);
+}
+body{
+    font-family:mc;
+}
+a,h1,h2,h3,h4,h5,span,b,s,u,p,q,td{
+    color:#99ffff;
+    vertical-align: top;
+}
+#home{
+    font-size:20px;text-decoration:none;color:#66ffff;
+}
+#home:hover{    
+    background-color:#66ff66;
+    color:black;
+}
