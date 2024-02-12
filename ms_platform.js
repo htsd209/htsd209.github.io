@@ -16,9 +16,6 @@ if (queryString) {
                 document.getElementById('tit').innerHTML = msic[decodeURIComponent(paramNameValuePair[1])];
                 console.log("music:title showed!");
             }
-            else{
-                window.location.href='https://htsd209.github.io/musics.html';
-            }
         }
     }
 } else {
