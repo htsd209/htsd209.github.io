@@ -8,8 +8,10 @@ if (queryString) {
         
         if (paramNameValuePair.length == 2) {
             if(decodeURIComponent(paramNameValuePair[0]) == 'ms_id'){
-                playerthe.innerHTML = "<audio controls='' id='player' src='audios/"+decodeURIComponent(paramNameValuePair[1])+".mp3'></audio>";
+                playerthe.innerHTML = "<audio controls='' id='player' src='audios/"+decodeURIComponent(paramNameValuePair[1])+".mp3'><\/audio>";
+                console.log('music:played');
                 tit.innerHTML = msic[decodeURIComponent(paramNameValuePair[1])];
+                console.log("music:title showed!");
             }
             else{
                 window.location.href='https://htsd209.github.io/musics.html';
