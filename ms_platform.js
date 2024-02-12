@@ -8,8 +8,8 @@ if (queryString) {
         
         if (paramNameValuePair.length == 2) {
             if(decodeURIComponent(paramNameValuePair[0]) == 'ms_id'){
-                alert(decodeURIComponent(paramNameValuePair[0]));
-                alert(decodeURIComponent(paramNameValuePair[1]));
+                //alert(decodeURIComponent(paramNameValuePair[0]));
+                //alert(decodeURIComponent(paramNameValuePair[1]));
                 document.getElementById('playerthe').innerHTML = "<audio controls='' id='player' src='audios/"+decodeURIComponent(paramNameValuePair[1])+".mp3'><\/audio>";
                 console.log('music:played');
                 console.log("<audio controls='' id='player' src='audios/"+decodeURIComponent(paramNameValuePair[1])+".mp3'><\/audio>");
