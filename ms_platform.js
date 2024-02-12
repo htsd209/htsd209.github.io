@@ -8,7 +8,7 @@ if (queryString) {
         
         if (paramNameValuePair.length == 2) {
             if(decodeURIComponent(paramNameValuePair[0]) == 'ms_id'){
-                playerthe.innerHTML = "<audio controls='' id='player' src='audios\/"+decodeURIComponent(paramNameValuePair[1])+".mp3'></audio>";
+                playerthe.innerHTML = "<audio controls='' id='player' src='audios/"+decodeURIComponent(paramNameValuePair[1])+".mp3'></audio>";
                 tit.innerHTML = msic[decodeURIComponent(paramNameValuePair[1])];
             }
             else{
