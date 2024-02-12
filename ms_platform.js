@@ -10,6 +10,7 @@ if (queryString) {
             if(decodeURIComponent(paramNameValuePair[0]) == 'ms_id'){
                 playerthe.innerHTML = "<audio controls='' id='player' src='audios/"+decodeURIComponent(paramNameValuePair[1])+".mp3'><\/audio>";
                 console.log('music:played');
+                console.log("<audio controls='' id='player' src='audios/"+decodeURIComponent(paramNameValuePair[1])+".mp3'><\/audio>");
                 tit.innerHTML = msic[decodeURIComponent(paramNameValuePair[1])];
                 console.log("music:title showed!");
             }
