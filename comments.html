@@ -8,7 +8,8 @@ var gitalk = new Gitalk({
     repo: 'gitalk-com',
     owner: 'htsd209',
     admin:  ['htsd209'],
-    id: location.pathname,      // Ensure uniqueness and len
+    id: location.pathname,  
+    language:'zh-CN',// Ensure uniqueness and len
     distractionFreeMode: false  // Facebook-like distraction
 })
 gitalk.render('gitalk-container')
